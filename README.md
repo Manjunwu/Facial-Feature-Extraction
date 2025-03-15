@@ -68,6 +68,3 @@ model = fasterrcnn_resnet50_fpn(pretrained=True)
 
 ## Authors
 - Kapil Dixit, Manju Thiyagarajan, Rashmi Patel
-## License
-This project is licensed under the MIT License.
-
