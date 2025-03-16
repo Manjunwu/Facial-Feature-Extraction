@@ -63,7 +63,7 @@ model = fasterrcnn_resnet50_fpn(pretrained=True)
 
 ## Deployed in Hugging Face
 https://huggingface.co/spaces/manjuthiyagarajan2025/FacialFeatureExtraction
-<img width="1470" alt="Screenshot 2025-03-16 at 10 07 08 AM" src="https://github.com/user-attachments/assets/cc951002-e45d-43db-bdaf-f157e62eb87b" />
+<img width="1492" alt="Screenshot 2025-03-16 at 10 16 10 AM" src="https://github.com/user-attachments/assets/f5604fac-2829-4638-aea1-00d5d74c6f66" />
 
 
 ## Future Improvements
