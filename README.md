@@ -19,9 +19,8 @@ Facial-Feature-Extraction/
 │   │── YOLO_Model.ipynb            # YOLO training and evaluation
 │   │── YOLO_Model_Evaluation.ipynb # YOLO model evaluation
 │   │── RCNN_Final.ipynb            # Faster R-CNN training and evaluation
-│── models/                         # Saved model weights
+│── model/                         # Saved model weights
 │   ├── best.pt                     # YOLO model weights
-│   ├── faster_rcnn_facial.pth      # Faster R-CNN weights
 │── model_results/                  # Saved model results
 │── data.yaml                       # Dataset configuration file
 │── README.md                       # Project documentation
@@ -61,6 +60,11 @@ model = fasterrcnn_resnet50_fpn(pretrained=True)
 ## Results
 - **YOLO**: Achieved real-time performance with high precision.
 - **Faster R-CNN**: Provided higher accuracy but required more computational resources.
+
+## Deployed in Hugging Face
+https://huggingface.co/spaces/manjuthiyagarajan2025/FacialFeatureExtraction
+<img width="1470" alt="Screenshot 2025-03-16 at 10 07 08 AM" src="https://github.com/user-attachments/assets/cc951002-e45d-43db-bdaf-f157e62eb87b" />
+
 
 ## Future Improvements
 - Fine-tuning hyperparameters for improved accuracy for Faster RCNN.
